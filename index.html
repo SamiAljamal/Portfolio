@@ -11,10 +11,12 @@
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <!--
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
+          -->
           </button>
           <a class="navbar-brand nav nav-pills" href="#"> Home</a>
           <a class="navbar-brand nav nav-pills" href="#">Gallery</a>
@@ -40,28 +42,73 @@
             </div>
           </div>
         </div>
-        </div>
-        <div class="container">
-     <div class="row">
-       <div class="col-md-8">
-         <h2>About Me</h2>
-         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-       </div>
-       <div class="col-md-4">
-         <h2>List of Projects</h2>
-         <p>
-           click on the project for a brief description and link.
-           <ul>
-             <li>Vacation</li>
-             <li>Wikipedia redesign</li>
-             <li>Animal shetler</li>
-             <li>resort Island</li>
-           </ul>
-         </p>
-
-
       </div>
-     </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h2>About Me</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            </div>
+          <div class="col-md-4">
+              <h2>Projects</h2>
+              <p>
+                 The projects we have done at epicodus have been really great! I have been able to understand the basic structure of how to create a website using HTML,CSS,Git,and Bootstrap. What will my next great project be? stay tuned to find Out!
+              </p>
+
+             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal"> View Projects</button>
+             <!-- Modal -->
+             <div class="modal fade" id="myModal" role="dialog">
+               <div class="modal-dialog">
+                 <!-- Modal content-->
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal">&times;</button>
+                     <h4 class="modal-title">Description and Links</h4>
+                   </div>
+                   <div class="modal-body">
+                     <ul>
+                       <li>
+                         <h3>Vacation Project</h3>
+                         <p>This is a webpage about visiting New York City. This was the first webpage I designed using bootsrap. Other technologies used in the design of this website are Html and CSS.</p>
+                         <p>
+                           <a href="https://github.com/SamiAljamal/vacation">link to project</a>
+                         </p>
+                       </li>
+                       <li>
+                         <h3>Wikipedia project</h3>
+                         <p>
+                           This purpose of this project was to use Boostrap to recreate the Wikipedia homepage. Bootrsap, css, and html were used in the design and greation of this project
+                         </p>
+                         <p>
+                           <a href="https://github.com/SamiAljamal/wikipedia">link to project</a>
+                         </p>
+                       </li>
+                       <li>
+                         <h3>Animal Shelter</h3>
+                         <p>
+                           This webpage used CSS stylesheets to creat columns with images and a description of each animal available at the shelter. Html and CSS were used in this static website.
+                         </p>
+                         <p>
+                           <a href="https://github.com/SamiAljamal/animal-shelter">link to project</a>
+                         </p>
+                       </li>
+                       <li>
+                         <h3>Resort Island webpage</h3>
+                         <p>
+                           This website was created to describe a fictional resort island. The website includes several pages describing the island. It was designed and created using html.
+                         </p>
+                         <p>
+                            <a href="http://samialjamal.github.io/resort-website/">link to project</a>
+                         </p>
+                       </li>
+                     </ul>
+                   </div>
+                 </div>
+               </div>
+             </div>
+            </div>
+          </div>
+        </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

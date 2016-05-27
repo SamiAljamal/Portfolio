@@ -2,6 +2,11 @@
   background-color: gray;
 }
 .image-1{
- height: 300px;
- width: 400px;
+ float: right;
+ width: 50%;
+ height: 50%;
+}
+li{
+  list-style: none;
+  color: red;
 }
