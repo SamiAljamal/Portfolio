@@ -2,9 +2,11 @@
   background-color: gray;
 }
 .image-1{
- float: right;
+ float: left;
  width: 50%;
  height: 50%;
+ margin-right: 20px;
+ border: solid gray 4px;
 }
 li{
   list-style: none;
