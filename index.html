@@ -7,12 +7,11 @@
     <link rel="stylesheet" href="css/my-stylesheet.css" media="screen" title="no title" charset="utf-8">
   </head>
   <!-- this creates the navigation bar and fixes it to the top -->
-  <nav class="navbar  navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="container-fluid">
           <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">Home</a>
-            <a class="navbar-brand" href="gallery.html">Gallery</a>          
+            <a class="navbar-brand" href="https://github.com/SamiAljamal">My-Github Page</a>
           </div>
         </div>
       </div>
@@ -25,29 +24,59 @@
             <img class="image-1 img-responsive" src="img/image-1.jpg"
             alt="Media Object">
             </a>
-              <h4 class="media-heading">My purpose</h4>
+              <h4 class="media-heading"><em>The Journey Begins</em></h4>
               <p>
-                This is some sample text. This is some sample text.
-                This is some sample text. This is some sample text.
-                This is some sample text. This is some sample text.
-                This is some sample text. This is some sample text.
+                  "Sometimes I'll start a sentence and I don't know where it's going.
+                   I just hope I find it along the way" - Michael Scott
               </p>
+              <p>
+                "We have to remember what's important in life: friends, waffles, and work. Or waffles, friends, work. But work has to come third" - Leslie Knope
+              </p>
+              <p>
+                "Success is 1% inspiration, 98% perspiration, and 2% attention to detai" - Phil Dunphy
+              </p>
+
             </div>
           </div>
-        </div>
-      </div>
+      <!-- This container section will house the about me section and projects section -->
       <div class="container">
         <div class="row">
           <div class="col-md-8">
-            <h2>About Me</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <h2><strong>About Me</strong></h2>
+            <h4>Background</h4>
+            <p>
+              Hi,
+              My name is Sami Al-Jamal. I'm originally from Louisiana. I'm excited to be a student at epicodus, and I'm looking forward to improve my coding skills ,and living in the great city of Portland!
+            </p>
+            <h4>Education & Work experience,</h4>
+            <p>I recieved a B.S from Brigham Young University in Geography with an Emphasis in Georgraphic Information System in 2013. I also minored in Arabic. After graduation I took a position at <span class="links"><a href="http://www.enablemidstream.com/html/pages/p001-homepage.html">Enable Midstream Partners</a></span> as a GIS technician. I colaborated with fellow team members in creating maps depicting Gas operations as well as performing geospatial analysis and data integrity procedures.
+            </p>
+            <h4>Why I'm Here</h4>
+            <p>
+              Though I enjoyed my last job, I felt like I needed to expand my skills and experience new challenges. I'm Epicodus, because I will learn the necessary skills to become a better programer, and I beleive this program will help develop a growth-learning mindset. My goal is to one day become a GIS developer, and Epicodus is a step towards making that a reality.
+            </p>
+            <h4>Interests</h4>
+            <p>
+              I love to experience new adventures. Especially with those that I love. These are some things that I love and enjoy:
+              <ol>
+                <!-- The java script for the modol buttons in this ol is at end before the script links -->
+                <li>Spending time with my <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">Wife</button>
+                <li>My
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">Pets</button>
+                </li>
+                <li>Playing golf</li>
+                <li>
+                  Eating
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal3">Fancy Foods</button>
+                  </li>
+              </ol>
+            </p>
             </div>
           <div class="col-md-4">
-              <h2>Projects</h2>
+              <h2><strong>Projects</strong></h2>
               <p>
                  The projects we have done at epicodus have been really great! I have been able to understand the basic structure of how to create a website using HTML,CSS,Git,and Bootstrap. What will my next great project be? stay tuned to find Out!
               </p>
-
              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal"> View Projects</button>
              <!-- Modal -->
              <div class="modal fade" id="myModal" role="dialog">
@@ -102,9 +131,34 @@
             </div>
           </div>
         </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <div id="myModal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="img/cats.jpg" class="img-responsive">
+                </div>
+            </div>
+          </div>
+        </div>
+        <div id="myModal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+          <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="img/image-2.jpg" class="img-responsive">
+                </div>
+            </div>
+          </div>
+        </div>
+        <div id="myModal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="img/food.jpg" class="img-responsive">
+                </div>
+            </div>
+          </div>
+        </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

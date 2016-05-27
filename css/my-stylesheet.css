@@ -1,14 +1,33 @@
-.navbar{
-  background-color: gray;
-}
+
 .image-1{
- float: left;
- width: 50%;
- height: 50%;
- margin-right: 20px;
- border: solid gray 4px;
+  background-color: black;
+  float: right;
+  width: 42%;
+  height: 45%;
+  margin: 10px;
+  padding:5px;
+  border: solid white 1px;
 }
-li{
+ul{
   list-style: none;
-  color: red;
+}
+
+
+.jumbotron{
+  background-color: #F23D3D;
+
+}
+.btn{
+  background-color: #F23D3D;
+  border: #F23D3D;
+  color: white;
+}
+.btn:hover{
+  background-color: #F23D3D;
+  color: black;
+}
+.links{
+  text-decoration: none;
+  font-weight: bold;
+  color: #5054D5;
 }
